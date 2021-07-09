@@ -1,1 +1,1 @@
-- [distractionless.com](https://distractionless.com/)
+[distractionless.com](https://distractionless.com/)
