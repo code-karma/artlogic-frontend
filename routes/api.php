@@ -17,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::group(array('prefix' => 'ct'), function() {
+    Route::get('/products', function (Request $request) {
+        return $request->fullUrl();
+    });
+    Route::get('/products', array('uses' => 'App\Http\Controllers\TestingController@getProducts'));
+    //Route::get('/asset/{id}', array('uses' => 'TestingController@getAsset'));
+
+});
