@@ -23,9 +23,9 @@ class TestingController extends Controller
         $this->delivery = new ContentfulDelivery($client);
     }*/
 
-    public function getProducts()
+    public function importOrder($id = 1)
     {
-        return $this->ct_client->getProducts();
+        return $this->ct_client->importOrder($id);
     }
 
     public function getAsset()

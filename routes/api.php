@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\TestingController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -22,7 +24,8 @@ Route::group(array('prefix' => 'ct'), function() {
     Route::get('/products', function (Request $request) {
         return $request->fullUrl();
     });
-    Route::get('/products', array('uses' => 'App\Http\Controllers\TestingController@getProducts'));
+    Route::get('/orders', [TestingController::class, 'importOrder']);
+
     //Route::get('/asset/{id}', array('uses' => 'TestingController@getAsset'));
 
 });
