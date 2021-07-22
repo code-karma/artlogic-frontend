@@ -93,8 +93,13 @@ class Commercetools
             'orderNumber' => $this->getOrderNumber(),
             'customerId' => $this->getCustomerId(),
             'customerEmail' => $this->getCustomerEmail(),
+
+            // Possible Logic: If product variant by SKU exists create lineItems
+            // with product key/reference, otherwise create a customLineItem.
             'lineItems' => $this->getLineItems(),
             //'customLineItems' => [],
+
+
             'totalPrice' => $this->getTotalMoney(),
             'taxedPrice' => $this->getTaxedPrice(),
             'shippingAddress' => $this->getShippingAddress(),
@@ -108,7 +113,7 @@ class Commercetools
             //'state' => [], // TBC?
             //'taxMode' => 'Platform', // TBC?
             'completedAt' => '2021-07-21T14:23:34.123Z',
-            //'custom' => [],
+            'custom' => $this->getCustomFields(),
             'inventoryMode' => 'None',
             'taxRoundingMode' => 'HalfEven',
             'taxCalculationMode' => 'LineItemLevel',
@@ -118,8 +123,29 @@ class Commercetools
         ];
     }
 
+    private function getCustomFields() {
+
+        return [
+            'typeId' => 'f9c58f19-bccc-449c-920c-fbaa42a179cb', // identifier to the custom fields
+            'fields' => [
+                'trackingId' => '42a31ec0-f2ad-49b0-8ac6-db933e9bf845',
+                'deliveryPDT' => '2021-07-20T08:23:00.000Z',
+                'deliveryCoordinates' => '47.505198, 11.278628',
+                'isAuthoritative' => false,
+                'stateChanges' => '[{\"timestamp\":\"2021-07-20T12:05:35Z\",\"from_state\":\"order-created\",\"to_state\":\"order-rider-claimed\"},{\"timestamp\":\"2021-07-20T12:05:35Z\",\"from_state\":\"order-rider-claimed\",\"to_state\":\"order-on-route\"},{\"timestamp\":\"2021-07-20T12:05:49Z\",\"from_state\":\"order-on-route\",\"to_state\":\"order-delivered\"}]',
+                'pickerID' => 'thisispickerid',
+                'trackingProvider' => 'onfleet',
+                'customerNote' => 'This is customer note',
+                'riderId' => '56f42907-f6aa-4892-8a65-6fcb9d92f1ac',
+                'deliveryETA' => '2021-07-20T08:23:00.000Z'
+            ],
+        ];
+
+
+    }
+
     private function getOrderNumber() {
-        return 'de-php-sdk-02';
+        return 'de-php-sdk-03';
     }
 
     private function getCustomerId() {
@@ -246,7 +272,7 @@ class Commercetools
         return [
             'shippingMethodName' => 'Standard',
             'price' => $this->getShippingPriceMoney(),
-            'shippingRate' => $this->getShippingrate(),
+            'shippingRate' => $this->getShippingRate(),
             'taxRate' => $this->getShippingTaxRate(),
             'taxCategory' => $this->getTaxCategoryRef(),
             'shippingMethod' => $this->getShippingMethodRef(),
@@ -256,7 +282,7 @@ class Commercetools
         ];
     }
 
-    private function getShippingrate() {
+    private function getShippingRate() {
         return [
             'price' => $this->getShippingPriceMoney(),
             //'tiers' => []
@@ -279,11 +305,39 @@ class Commercetools
         return [
             //'id' => [static::TYPE => 'int'],
             'sku' => '11012387',
-            //'prices' => [static::TYPE => PriceCollection::class],
-            //'attributes' => [static::TYPE => AttributeCollection::class],
-            //'images' => [static::TYPE => ImageCollection::class],
+            'prices' => $this->getVariantPrice(),
+            //'attributes' => $this->getVariantAttribute(),
+            //'images' => $this->getVariantImages(),
         ];
     }
+
+    private function getVariantPrice() {
+        $array[] = [
+            //'id' => '', // READ ONLY
+            'value' => $this->getProductVariantValue(),
+            'country' => 'DE',
+            //'customerGroup' => [],
+            //'channel' => $this->getLineChannelRef(),
+            //'validFrom' => '',
+            //'validUntil' => '',
+            //'tiers' => '',
+            //'discounted' => '',
+            //'custom' => '',
+        ];
+        return $array;
+    }
+
+    private function getVariantAttribute() {
+        return [];
+    }
+
+    private function getVariantImages() {
+        return [
+            '' => ''
+        ];
+    }
+
+
 
     private function getItemShippingDetails() {
         return [
@@ -335,6 +389,14 @@ class Commercetools
         return [
             static::CURRENCY_CODE => 'EUR',
             static::CENT_AMOUNT => 180,
+        ];
+    }
+
+    public function getProductVariantValue()
+    {
+        return [
+            static::CURRENCY_CODE => 'EUR',
+            static::CENT_AMOUNT => 598,
         ];
     }
 
