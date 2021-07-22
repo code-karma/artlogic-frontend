@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-//use App\Models\BookingItem;
+
 use Illuminate\Support\Facades\Log;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 
-//use Contentful\Delivery\Client as DeliveryClient;
+use App\Services\Commercetools\Service;
 use App\Services\Commercetools;
 
 class TestingController extends Controller
@@ -31,6 +31,15 @@ class TestingController extends Controller
     public function getAsset()
     {
         //return $this->delivery->getAsset($id);
+    }
+
+
+    public function postOrderImport()
+    {
+        $json = self::buildJsonPayload($body);
+        $http = new Service();
+        $response = $http->post();
+        return $response;
     }
 
 }
