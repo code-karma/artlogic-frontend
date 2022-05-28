@@ -42,8 +42,57 @@ class Commercetools
             $authConfig
         );
 
+
+
+
+
+
+        $string = file_get_contents("/home/forge/distractionless.com/resources/views/warehouses_ids.json");
+        $array = json_decode($string, true);
+
+        $list = file_get_contents("/home/forge/distractionless.com/resources/views/last-php.json");
+        $items = json_decode($list, true);
+
+        $edges = $array['data']['warehouses']['edges'];
+
+        $data = [];
+        foreach ($edges as $edge) {
+            $data[] = $edge['node'];
+        }
+        return $data;
+
+        $res = [];
+        foreach ($items as $item) {
+            $hub_id = false;
+            foreach ($data as $hub) {
+                if ($hub['slug'] === $item['hub']) {
+                    $hub_id = $hub['id'];
+                }
+            }
+            $res[] = [
+                'sku' => $item['sku'],
+                'hub' => $item['hub'],
+                'hub_id' => $hub_id ? $hub_id : null,
+            ];
+        }
+
+        return $res;
+
+
+
         $body = $this->postPayload();
-        //return $body;
+        return $body;
+
+
+
+
+
+
+
+
+
+
+
         $options = [
             'body' => json_encode($body)
         ];

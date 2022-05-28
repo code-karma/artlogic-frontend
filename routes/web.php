@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get('/artlogic', function () {
+    return view('artlogic', ['']);
+});
 
-require __DIR__.'/auth.php';
+Route::get('/art', '\App\Http\Controllers\WelcomeController@showApp');

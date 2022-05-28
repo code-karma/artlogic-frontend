@@ -1,0 +1,597 @@
+{
+    "data": {
+        "warehouses": {
+            "totalCount": 84,
+            "edges": [
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjVmNmViM2JmLWE0OGQtNDk4OS04ZmVlLWMxMTE3ZDJjYjYxYw==",
+                        "name": "UNFULFILLABLE",
+                        "slug": "unfulfillable"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjU2YzQ3NzBiLWVjNGQtNDRmYi1hNGM2LThiYjM4YmJjZjkxMQ==",
+                        "name": "ERP_SPITZBERGEN_2",
+                        "slug": "erp_spitzbergen_2"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjU5ZGViZDE4LTkzY2QtNDUwNS04MGYyLTdmMjRhYzZmYTEwYw==",
+                        "name": "ERP_SPITZBERGEN",
+                        "slug": "erp_spitzbergen"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjRjMjZjYzI4LTM1N2YtNDYxMS1iNWMyLTg4OTMwZDAxYTlhOQ==",
+                        "name": "Friedenstrasse 14 (DE_ZPM_ZENT)",
+                        "slug": "de_zpm_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjNmNmY0OGRjLWMyZTUtNDZjMC04YmZjLTc3NTFlMTE4NDE2Ng==",
+                        "name": "OBERHAUSEN (DE_ZOY_ALTS)",
+                        "slug": "de_zoy_alts"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjgyZDFjZDY5LWZmMzctNDk5Mi1hMmFjLTE4ZTFkZTU2NWUyMA==",
+                        "name": "Schulstrasse Ludwigshafen (DE_ZOE_ZENT)",
+                        "slug": "de_zoe_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjk3ZmMzODI2LWU1MmEtNGU5OC1hZjIxLWI1MzM4NDBhMDg1Yg==",
+                        "name": "Nägelsbachstraße 29a (DE_ZCZ_MITT)",
+                        "slug": "de_zcz_mitt"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjM4ZTU4OTkxLTM2NGUtNDAzYy1iZWQ1LTY2YTMxMjY4MmViYQ==",
+                        "name": "DE_ZCJ_ZENT",
+                        "slug": "de_zcj_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmFmOTAyMzQ4LTQzOTEtNDgyMy1hZjU0LWZiZDQyZmM3N2Y5MQ==",
+                        "name": "Eichhornstrasse 21 (DE_WUE_ALTS)",
+                        "slug": "de_wue_alts"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjkzZTEzYWFkLTllMGEtNGM5NS05N2U5LTk4ZGQwOTVmYWUyMg==",
+                        "name": "Wiesbaden Bleichstrasse (DE_WIE_MITT)",
+                        "slug": "de_wie_mitt"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjk0YThhODJiLTM3ZGEtNDE4Ni1iNjNjLWNjN2Q5NzcyMjdmZQ==",
+                        "name": "Schwabstrasse (DE_STR_WEST)",
+                        "slug": "de_str_west"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmRhNzVmNjdkLTM2MGEtNGQ5YS04YzVlLWQ0NWRjNGZjZWI5Mw==",
+                        "name": "Staulinie 18 (DE_OLD_INNE)",
+                        "slug": "de_old_inne"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjg3ZTdjNGVmLWU2NTEtNDViOC05OWUzLWVmMDU0ZWQ2MjI5NQ==",
+                        "name": "Offenbach Frankfurter Strasse (DE_OFF_ZENT)",
+                        "slug": "de_off_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmIzMzRiMDgwLWUzZTItNDY4Zi1hOGNiLTc0MTBjMjI2ZjgxNQ==",
+                        "name": "Nuremberg Südstadt (DE_NRM_SUDS)",
+                        "slug": "de_nrm_suds"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmRiOGRjMzAyLTgyOTktNDIxZS05MTIzLWMwYmFkNDdlMWVjMw==",
+                        "name": "Nuremberg Sulzbacher (DE_NRM_MAXF)",
+                        "slug": "de_nrm_maxf"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmEzZWNkYjIyLWNkNTAtNDk5Yy1hNzc4LTQ4M2YwMjkyYTU2Mg==",
+                        "name": "Nuremberg Wiesentalstraße (DE_NRM_JOHA)",
+                        "slug": "de_nrm_joha"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjdlYTU1NzlkLTVlYmItNDM3Ny1iNDJjLWU5MWM5ZTJkMDdlYw==",
+                        "name": "Neuss Neustrasse (DE_NEU_ALTS)",
+                        "slug": "de_neu_alts"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmYzYTkzOGI4LTA2ODEtNDJlOC1hNTBjLThhZWQyODQxMGU5Ng==",
+                        "name": "Mulheim Viktoriastrasse (DE_MUL_ZENT)",
+                        "slug": "de_mul_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmJiZDY0ZWExLTcxNTEtNDQ5YS05OGRlLTNmNTA2YmExNjk1ZA==",
+                        "name": "Munich Leopold (DE_MUC_SCHW)",
+                        "slug": "de_muc_schw"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjU2YzE3OWE0LTRlOTUtNDE4MC1iMjNkLTZlZTU5MGVhNWU1YQ==",
+                        "name": "Munich Karl (DE_MUC_MAXV)",
+                        "slug": "de_muc_maxv"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjg1ZTgxZGUxLTk5OWItNGM1My1iNTc1LTdlNjQxYzBlMWQ4ZA==",
+                        "name": "MOERS Homberger Str (DE_MOE_ZENT)",
+                        "slug": "de_moe_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmY1OWFlMWM2LTUwOWMtNDM3Yi05ZWQ3LWZhZjkwMGY4YTczMw==",
+                        "name": "MÖNCHENGLADBACH Hindenburgstrasse (DE_MGL_ZENT)",
+                        "slug": "de_mgl_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjMwMjhkMGM5LTBlMzMtNDFiZi1iZGExLWU1OGU2MDZlYzFhMw==",
+                        "name": "Mainz Grosse Langgasse (DE_MAZ_INNE)",
+                        "slug": "de_maz_inne"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjBjOWE5YTJhLTI3YTctNGQ0OS1iYzZmLWRjMzhmODExMDUwNA==",
+                        "name": "Steubenstraße 26 (DE_MAN_NIED)",
+                        "slug": "de_man_nied"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjBkYjMyY2MyLWZkMGEtNDkzMy04YThmLTZmZGIwOTljY2E0MQ==",
+                        "name": "S1 4 (DE_MAN_INNE)",
+                        "slug": "de_man_inne"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmEzZDNjNTAxLWUxMGMtNGI0Ni1hOWM2LTc1Njc2YjRjYjg2Yw==",
+                        "name": "Leipzig Giesserstrasse (DE_LEI_PLAG)",
+                        "slug": "de_lei_plag"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjY1MDAwY2JkLWVhOGYtNGFiNC1hNTg2LTNkNzhmODBmMzg1Zg==",
+                        "name": "Schönefelderstrasse 6 (DE_LEI_EUTR)",
+                        "slug": "de_lei_eutr"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjg4OTAxNGRlLWNhNmMtNGZmNi04ZDQzLTgyYTA0MmIzOTRjMg==",
+                        "name": "Krefeld Ostwall (DE_KRE_INNE)",
+                        "slug": "de_kre_inne"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjY3ZjYwMWU1LWNhYjUtNDRlNy1iNzdiLTRjYTc2ZTc0MTU5OA==",
+                        "name": "Werftstrasse 179 (DE_KIE_GAAR)",
+                        "slug": "de_kie_gaar"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmY1ZjczNjFkLWM5YjUtNGU5Mi05ZjFkLWY0NmVlN2U5NzRkNw==",
+                        "name": "Kaiserstrasse 123 (DE_KAR_ZENT)",
+                        "slug": "de_kar_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmEwMDRjOTYxLWNiNTYtNDBkNS1iODZjLTkyNDUwYzE5NTVlZQ==",
+                        "name": "Titotstrasse 3 (DE_HEI_ZENT)",
+                        "slug": "de_hei_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmE4YTMyMDk5LThkZTEtNDYwOS04MTIzLTIzZjA0MDA4N2JiOA==",
+                        "name": "Hamburg WinterhuderWeg (DE_HAM_WINT)",
+                        "slug": "de_ham_wint"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmM5MGM3MDU1LTZjNTItNDA1Mi05ZmIwLThiMTYwYTU4NTVlZQ==",
+                        "name": "Hamburg Friedrich-Ebert-Damm (DE_HAM_WAND)",
+                        "slug": "de_ham_wand"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjk1MzdmODlhLWUwZTktNDFmZC05ZDI5LWFlYTBkNTFlZTMxNA==",
+                        "name": "Hamburg Beim Schlump (DE_HAM_ROTH)",
+                        "slug": "de_ham_roth"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmQ3OGQ3ZjNhLTkyZGEtNDAxOS1hYjkyLWNlNGY0ZWJhYTM4YQ==",
+                        "name": "Grindelallee 153 (DE_HAM_ROT2)",
+                        "slug": "de_ham_rot2"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjk4M2Y5YjU0LThkZGQtNGFjOC1iYjQwLTcwMTBmMzM3MWRmZA==",
+                        "name": "Hamburg Am Born (DE_HAM_OTTE)",
+                        "slug": "de_ham_otte"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmJhZmRlODYzLTE1ZjUtNGIxYy04OTUyLWJlMDVlMzBkYzNlNQ==",
+                        "name": "Lübecker Strasse 101 (DE_HAM_HOHE)",
+                        "slug": "de_ham_hohe"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjFmNzg1ZGI3LTYyMDctNGM1ZC05OTZmLTNjNTk2YmEyMWM3Yg==",
+                        "name": "Hamburg Goldkehlchen (DE_HAM_GKGT)",
+                        "slug": "de_ham_gkgt"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjIyZWMzYmQ1LTZkZjctNDlkMi05NjFkLWE0ZjFhMmEwM2Q3MA==",
+                        "name": "Borsteler Chaussee 11 (DE_HAM_EPPE)",
+                        "slug": "de_ham_eppe"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjdjNWI4YTBiLTU2NmUtNGEzMy04OGJhLWJmZTU1MDQ4OWUyNw==",
+                        "name": "Hamburg Kieler Straße(DE_HAM_EIMS)",
+                        "slug": "de_ham_eims"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjJmODEyNGYzLTI2NWQtNGJkMS04OWVhLWJhOWM2ZGY4NThlYg==",
+                        "name": "Hamburg Oelkersallee (DE_HAM_ALTO)",
+                        "slug": "de_ham_alto"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmZmZjlhMzkwLWMzNTctNDVhYi05YTRkLWMwMWVjYTIxNzc0ZQ==",
+                        "name": "Brockhoffstraße 18 (DE_GEL_ALTS)",
+                        "slug": "de_gel_alts"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjI2N2M2OTY0LWExYTYtNGI2YS1hNGY2LTFkMmQ4ZGYzMjUwYQ==",
+                        "name": "Schnewlinstraße 2 (DE_FRE_STUE)",
+                        "slug": "de_fre_stue"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmUwNjFkYzA0LTI3NzItNDVlNy1hNTk4LTU1NTMzMzk2NWE4Yw==",
+                        "name": "Frankfurt Hedderichstrasse (DE_FRA_SACH)",
+                        "slug": "de_fra_sach"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjFiMTY2MTJjLWUzYzYtNDExZS1iMzcwLTViZjc5ZGQ0OWNkOA==",
+                        "name": "Frankfurt Burgstraße (DE_FRA_NORD)",
+                        "slug": "de_fra_nord"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmM3ZTJkMjdmLTZiZTgtNDZjOS1iYmE3LTliMzdmNmQ5YzFlYw==",
+                        "name": "Frankfurt Mainzer Landstrasse (DE_FRA_GALL)",
+                        "slug": "de_fra_gall"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjFkNzEwYmM3LTA1MWUtNDEyZS04ZjIzLWM5ODdlMjIzNzVlZA==",
+                        "name": "Essen Holsterhauser (DE_ESS_HOLS)",
+                        "slug": "de_ess_hols"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjFiOTMxMzhhLTA5OTUtNDliYy04OTcxLWJlMDAxYTIzZTdjYw==",
+                        "name": "Essen Karlstrasse (DE_ESS_ALTE)",
+                        "slug": "de_ess_alte"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjc0ZTY2MGY3LWQzNDEtNDc4NS1hN2U5LTQ5NzVhNzNhN2FmNw==",
+                        "name": "Dusseldorf Schloss (DE_DUS_PEMP)",
+                        "slug": "de_dus_pemp"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjc2MWY1MmYwLTJkMzYtNDljMS1hODlkLTRiYWZlMWU1NWM4MA==",
+                        "name": "DUSSELDORF Schanzenstraße (DE_DUS_OKAS)",
+                        "slug": "de_dus_okas"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmIzMTVlNmI3LWI3NTMtNGJiNS04OTkzLTg3YTIzZjAyZDA3Mw==",
+                        "name": "Dusseldorf Friedrich (DE_DUS_FRIE)",
+                        "slug": "de_dus_frie"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjQzYWM4OTA2LWEzZjMtNDMzMi1hODhkLWU1YzU1MjBkMGEwYQ==",
+                        "name": "Behrenstrasse 5 (DE_DUS_FLIN)",
+                        "slug": "de_dus_flin"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmZhODU5ZmY4LTI0YjctNDA1MS05YmRkLTMzNjYxM2YzMmJiNA==",
+                        "name": "Duisberg Ulmenstraße (DE_DUI_RHEI)",
+                        "slug": "de_dui_rhei"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjhhNWE2OWZjLWRjZTktNGRiZS1hZDFjLWMzZGI1YjlhMzZkOQ==",
+                        "name": "Sternbuschweg 95 (DE_DUI_NEUD)",
+                        "slug": "de_dui_neud"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjFmN2YzZGRmLWIwZjktNGUzZi1hMzZmLTRmNzg3MjY1YjNiZA==",
+                        "name": "DUISBURG Münzstraße 19 (DE_DUI_ALTS)",
+                        "slug": "de_dui_alts"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjk2MjQ5MWRhLTE0YTctNDc3OS1iNDZhLWJhNjE5N2Y0ODZhMA==",
+                        "name": "Teplitzer Strasse 76 (DE_DRS_STRE)",
+                        "slug": "de_drs_stre"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjdmNWI2YmQyLTZmN2YtNDk0Zi05MjkxLWYyNDUzMGI2ZGY1Yw==",
+                        "name": "Dresden Heidestrasse (DE_DRS_PIES)",
+                        "slug": "de_drs_pies"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjgzYzM2MjM5LThkMGEtNGUyNy1iNjI4LTBhZGNkOTVlN2NmYw==",
+                        "name": "Dresden Bautznerstraße (DE_DRS_NEUS)",
+                        "slug": "de_drs_neus"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjE5YjhiMWUyLTlmZTYtNDEyNC1iYzhlLTZlZmMxZjZiYTQ3Mw==",
+                        "name": "Dortmund Kaiserstrasse (DE_DOR_KOER)",
+                        "slug": "de_dor_koer"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjk0YTMwYmJhLWQ1NzEtNDY0Ny04MWVmLTM1NTk5YTNlNDRlZQ==",
+                        "name": "Darmstadt Adelungstraße (DE_DAR_ZENT)",
+                        "slug": "de_dar_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmNhNTMyYTgyLTFkZWYtNDc4Ny04NTBjLTBjN2Y4YWFkZWUxZg==",
+                        "name": "Reichsstrasse 69a (DE_CHE_KASS)",
+                        "slug": "de_che_kass"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjNkNzhmNjljLTA5ZmItNDE1ZC1hY2U2LTA0NTgxMzlhNzFiOQ==",
+                        "name": "Köln Severinstraße (DE_CGN_SUDS)",
+                        "slug": "de_cgn_suds"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjJkM2JjYmM3LTg5Y2UtNDAyNy05MTBkLTA1MWNhM2EwMjdjMQ==",
+                        "name": "Köln Neusser (DE_CGN_NIPP)",
+                        "slug": "de_cgn_nipp"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjg4MWUyNGNjLWQ0MzYtNDU5NC04MjRhLTFjZTZkMGUwYzQ1NA==",
+                        "name": "Köln Marsiliusstraße (DE_CGN_LIND)",
+                        "slug": "de_cgn_lind"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjRmMjUzZjJjLWE3ZTYtNDU5ZS1hY2JhLTE1NjkzMGNkNjgwYw==",
+                        "name": "Kuthstraße 36 (DE_CGN_KALK)",
+                        "slug": "de_cgn_kalk"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjI2M2VmMzY2LWQ3OWEtNGZkOS1iNzZhLTc1M2M2MGQ0MzAyMw==",
+                        "name": "Köln Kaiser(DE_CGN_INNE)",
+                        "slug": "de_cgn_inne"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjY4N2MzMTVkLWMzZjktNGZmNy1iMzJmLTM1ZDM5NjJhMjU1Mw==",
+                        "name": "Köln Subbelrather (DE_CGN_EHRE)",
+                        "slug": "de_cgn_ehre"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjA0NTk5MWFiLTE2NWItNDFjZi1iMzBkLTZiZGEwYjA2ZDk4NA==",
+                        "name": "Bonn Oxfordstrasse (DE_BON_ZENT)",
+                        "slug": "de_bon_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjE3ZTBjNjAxLWFkNTUtNDQ1OC04M2RjLTExNzdkMWQ5NDE2Zg==",
+                        "name": "Kortumstraße 124 (DE_BOC_ZENT)",
+                        "slug": "de_boc_zent"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjNhYjZhZTEzLTNjMmUtNGE1MS04ZDM3LTc2NzFkYjkxZWYxNw==",
+                        "name": "Bernhard Lichtenbergstr 4a (DE_BER_WINS)",
+                        "slug": "de_ber_wins"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmFjZTdhM2JlLWRhZmUtNDliYi1iZDEzLWI2OTlkNWZiZTlkMQ==",
+                        "name": "Berlin Bundesallee (DE_BER_WILM)",
+                        "slug": "de_ber_wilm"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjIzYzlhOGY1LWQ4OWUtNDkzOC1hOGRkLWJhZTBkMzE0MzI1Yg==",
+                        "name": "Berliner Allee(DE_BER_WEIS)",
+                        "slug": "de_ber_weis"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmRkNGMyMzlkLTZjZTQtNGJmYi04ZjAwLTBjOWE4ZTQyODg0Yg==",
+                        "name": "Berlin Oudenarder Str (DE_BER_WEDD)",
+                        "slug": "de_ber_wedd"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmMyZjcyN2YzLWUzMDctNDk1YS04ZjVkLTVlOGI2ZDY5MTgyYg==",
+                        "name": "Berlin UnterFreiHimmel (DE_BER_UFHI)",
+                        "slug": "de_ber_ufhi"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjVhOTQxZjU1LTBmYzktNDA4My1hZDEyLTE2M2VkYmU4YzQzYg==",
+                        "name": "Berlin Katzbachstrasse (DE_BER_TEMP)",
+                        "slug": "de_ber_temp"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjQwNmFhZWRlLWZmMWYtNGYwZS1hMDkxLWViNDk5NjBmOTg1Yg==",
+                        "name": "Berlin Schönhauseralle (DE_BER_PREN)",
+                        "slug": "de_ber_pren"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmMzYzkzMDQxLWE1YjMtNGZjMS1iMmQyLTJiODY0MmE2MTQ5NA==",
+                        "name": "Berlin Anzengruber (DE_BER_NEUK)",
+                        "slug": "de_ber_neuk"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmE5Mjg1YWI1LTc5NDItNGE0YS1iZWUwLTdmZDVkNDhhNGMyZg==",
+                        "name": "Berlin AltMoabit (DE_BER_MOAB)",
+                        "slug": "de_ber_moab"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjUyY2ZlMGQ1LTU1MGYtNDhlZC05MjE4LTA2MDIyMmI1YWY1Yw==",
+                        "name": "Berlin Gartenstrasse (DE_BER_MIT2)",
+                        "slug": "de_ber_mit2"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjU5ZWFjMTYxLWNhMjctNGNlMi04MWNmLWJjZjFlYmUwNzNmNg==",
+                        "name": "Berlin Walstrasse (DE_BER_MIT1)",
+                        "slug": "de_ber_mit1"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmQ4MzM2NjdiLWViYTctNGZiMC1iNjc2LTg5OTQ1NGNhZWU1ZA==",
+                        "name": "Berlin Kreuzberg (DE_BER_KREU)",
+                        "slug": "de_ber_kreu"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOmRhY2RhZjdjLThjNGEtNGUzYi04N2RkLTQ2ZmY1YTRmMzM3Mw==",
+                        "name": "Berlin Grünberger (DE_BER_FRIE)",
+                        "slug": "de_ber_frie"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjViNjViZGQ2LTc0NmItNGE1Yi04MDY2LTMwNWZjMTJkOTNhOA==",
+                        "name": "Berlin Kantstrasse (DE_BER_CHAR)",
+                        "slug": "de_ber_char"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "V2FyZWhvdXNlOjQ2ZDgzMWFiLWUxZWEtNGFhMi04MmZjLWJlYzFiMzNmNzkwOQ==",
+                        "name": "Aachen Kasinostraße (DE_AAH_BURT)",
+                        "slug": "de_aah_burt"
+                    }
+                }
+            ]
+        }
+    }
+}
