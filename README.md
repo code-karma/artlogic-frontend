@@ -9,7 +9,7 @@
 - The source code containing the **HTML/JS/CSS** for the task (all embeeded in one page with no external .js/.css files) can be found here: [/resources/views/artlogic.blade.php](https://github.com/code-karma/distractionless/blob/master/resources/views/artlogic.blade.php)
 - Even though it was mentioned not to use any css frameworks, I did use a very basic `normalize.css` grid for the centered container only.
 - I used Vanilla JS only.
-- I used Blade Templating tags to loop through the `data.json` building the FAQ Content. I thought that using JS for that is not very SEO friendly:)
+- I used Blade Templating tags (executed on the server side) to loop through the `data.json` building the FAQ Content. I thought that using JS for that is not very SEO friendly:)
 
 ### PHP Code used to grab `data.json`
 
