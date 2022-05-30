@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/artlogic', function () {
+/*Route::get('/artlogic', function () {
     return view('artlogic', ['']);
-});
+});*/
 
-Route::get('/art', '\App\Http\Controllers\WelcomeController@showApp');
+Route::get('/artlogic', '\App\Http\Controllers\WelcomeController@showApp');
