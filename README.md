@@ -1,5 +1,7 @@
 # Artlogic Frontend Task
 
+**Time Spent:** `4-5Hrs` (Note that I have not written CSS for at least 3-4 years, hence needed to spent a bit more time)
+
 **Preview Task:** [distractionless.com/artlogic](https://distractionless.com/artlogic)
 
 ### Notes:
