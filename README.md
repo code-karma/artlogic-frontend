@@ -13,7 +13,7 @@
 - I used Vanilla JS only.
 - I used Blade Templating tags (executed on the server side) to loop through the `data.json` building the FAQ Content. I thought that using JS for that is not very SEO friendly:)
 
-### PHP Code used to grab `data.json`
+### PHP Code used to grab `data.json` for the FAQ
 
 ```PHP
 <?php
