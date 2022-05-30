@@ -4,6 +4,8 @@
 
 **Preview Task:** [distractionless.com/artlogic](https://distractionless.com/artlogic)
 
+Source code is above. Main file with HTML/CSS/JS/Blade is here [/resources/views/artlogic.blade.php](https://github.com/code-karma/distractionless/blob/master/resources/views/artlogic.blade.php)
+
 ### Notes:
 
 - The page is hosted on my personal Linode Server using Laravel PHP Framework.
