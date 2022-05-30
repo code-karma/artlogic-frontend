@@ -13,7 +13,7 @@
 
 ### PHP Code used to grab `data.json`
 
-``PHP
+```PHP
 <?php
 
 namespace App\Http\Controllers;
@@ -46,6 +46,6 @@ class WelcomeController extends BaseController
         return view('artlogic', ['params' => $data]);
     }
 }
-``
+```
 
 
