@@ -1,3 +1,3 @@
 # Artlogic Frontend Task
 
-(Preview task: )[https://distractionless.com/artlogic]
+[Preview task: ](https://distractionless.com/artlogic)
